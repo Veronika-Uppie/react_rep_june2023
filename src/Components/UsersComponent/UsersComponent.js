@@ -11,6 +11,7 @@ const UsersComponent = () => {
     const showDetails = async (userId) => {
         const {data} = await userServices.getById(userId);
         setUserDetails(data)
+
     } ;
 
     useEffect(() => {
