@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {axiosService} from "../../Services/AxiosService";
+
 import UserComponent from "../UserComponent/UserComponent";
 import {userServices} from "../../Services/userServices";
 import UserDetailsComponent from "../UserDetailsComponent/UserDetailsComponent";
