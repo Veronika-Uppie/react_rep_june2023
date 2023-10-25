@@ -1,12 +1,11 @@
 import React from 'react';
 
-const App = () => {
+const Posts = () => {
     return (
         <div>
-            <PostsContainet/>
-
+            
         </div>
     );
 };
 
-export {App};
+export default Posts;

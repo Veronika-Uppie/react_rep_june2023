@@ -1,12 +1,11 @@
 import React from 'react';
 
-const App = () => {
+const PostForm = () => {
     return (
         <div>
-            <PostsContainet/>
-
+            
         </div>
     );
 };
 
-export {App};
+export default PostForm;
